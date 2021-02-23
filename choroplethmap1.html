@@ -1,0 +1,57 @@
+<head>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="choroplethmap1.css">
+    <script defer src="choroplethmap1.js"></script>
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id=header>
+        <div id="title">
+            <h2>United States Educational Attainment</h2>
+        </div>
+        <div id="description">
+            <h3> Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h3>
+        </div>
+    </div>
+    <div id=map>
+        <svg id="legend">
+      
+      <rect x="20" y="0" width="50" height="20" fill="#E4FFCE"> </rect>
+      <text x="13" y="15" width="50" height="20" fill="black"  font-size="8px"  >2.6%  </text>
+     
+     
+      <rect x="60" y="0" width="50" height="20" fill="#ABED97"></rect>
+      <text x="53" y="15" width="200" height="20" fill="black" font-size="8px"  >  11.6% </text>
+     
+     
+      <rect x="100" y="0" width="50" height="20" fill="#8FD07D"></rect>
+      <text x="93" y="15" width="200" height="20" fill="black" font-size="8px"  >   20.6% </text>
+       
+      <rect x="140" y="0" width="50" height="20" fill="#74B463"></rect>
+      <text x="133" y="15" width="200" height="20" fill="black" font-size="8px"  >  	  29.6%  </text> 
+
+      <rect x="180" y="0" width="50" height="20" fill="#5A994A"></rect>
+      <text x="173" y="15" width="200" height="20" fill="black" font-size="8px"  >  	 38.6%  </text> 
+
+      <rect x="220" y="0" width="50" height="20" fill="#3F7F32"></rect>
+      <text x="213" y="15" width="200" height="20" fill="black" font-size="8px"  >  	  47.6%  </text> 
+
+      <rect x="260" y="0" width="50" height="20" fill="#24661A	  "></rect>
+      <text x="253" y="15" width="200" height="20" fill="black" font-size="8px"  >  	  56.6%  </text> 
+      <text x="296" y="15" width="200" height="20" fill="black" font-size="8px"  >  	 65.6%  </text>
+   
+      <rect x="310" y="0" width="45" height="20" fill="#004D00"></rect>
+      <text x="340" y="15" width="200" height="20" fill="black" font-size="8px"  >  	  74.6%  </text> 
+
+</svg></div>
+
+    <div>
+
+        <svg id="canvas"></svg></div>
+
+
+    </main>

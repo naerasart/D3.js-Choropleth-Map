@@ -1,0 +1,17 @@
+body {
+    margin-top: 1%;
+    background-color: yellow;
+}
+
+#header {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    text-align: center;
+}
+
+svg {
+    margin-left: 10%;
+    margin-right: 35%;
+    margin-top: 2%;
+}
